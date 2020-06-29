@@ -21,7 +21,8 @@ function generateMarkdown(response) {
 ## ${response.questions}\n
 
 
-
+  ![](https://img.shields.io/packagist/l/turtando/good-readme-generator)
+  
   ![GitHub Logo](/images/logo.png)
   Format: ![Alt Text](url)
 `;
