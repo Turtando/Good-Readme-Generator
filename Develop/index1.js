@@ -1,16 +1,15 @@
 var fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-
 // array of questions for user
 const questions = [
   {
-    message: "GitHub username please?",
+    message: "What is your GitHub username?",
     name: "username",
     type: "input",
   },
   {
-    message: "Email address?",
+    message: "What is your email address?",
     name: "email",
     type: "input",
   },
