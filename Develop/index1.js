@@ -61,7 +61,7 @@ const questions = [
       if (err) {
         return console.log(err);
       }
-      console.log("Success");
+      console.log("Success! README was created.");
     });
   });
 
