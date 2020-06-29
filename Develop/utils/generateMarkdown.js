@@ -5,20 +5,20 @@ function generateMarkdown(response) {
 
 ## Description ${response.description}
 
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributors](#contributors)
-* [Test](#test)
-* [Questions](#questions)
+## Table of Contents 
+* [Installation](#installation)\n ${response.installation}
+* [Usage](#usage)\n ${response.usage}
+* [License](#license)\n ${response.license}
+* [Contributors](#contributors)\n ${response.contributors}
+* [Test](#test)\n ${response.test}
+* [Questions](#questions)\n ${response.questions}
 
 ## ${response.installation}\n
 ## ${response.usage}\n
 ## ${response.license}\n
 ## ${response.contributors}\n
 ## ${response.test}\n
-## ${response.questions}\n
+## ${response.questions}
 
 
 
