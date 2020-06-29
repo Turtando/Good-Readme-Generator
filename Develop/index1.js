@@ -55,6 +55,7 @@ const questions = [
     type: "input",
   },
 ]
+inquirer.prompt(questions)
   // function to write README file
   .then(function (response) {
     fs.writeFile("userREADME.md", generateMarkdown(response), function (err) {
@@ -65,10 +66,4 @@ const questions = [
     });
   });
 
-// // function to initialize program
-// function init() {
 
-// }
-
-// // function call to initialize program
-// init();

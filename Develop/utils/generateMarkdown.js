@@ -3,28 +3,42 @@ function generateMarkdown(response) {
 
 # ${response.title}\n
 
-## Description ${response.description}
+# Description 
+${response.description}\n
 
-## Table of Contents 
-* [Installation](#installation)\n * ${response.installation}
-* [Usage](#usage)\n *${response.usage}
-* [License](#license)\n *${response.license}
-* [Contributors](#contributors)\n *${response.contributors}
-* [Test](#test)\n *${response.test}
-* [Questions](#questions)\n *${response.questions}
-
-## ${response.installation}\n
-## ${response.usage}\n
-## ${response.license}\n
-## ${response.contributors}\n
-## ${response.test}\n
-## ${response.questions}\n
+# Table of Contents 
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributors](#contributors)
+* [Test](#test)
+* [Questions](#questions)
+* [Contact](#contact)
 
 
-  ![](https://img.shields.io/packagist/l/turtando/good-readme-generator)
-  
-  ![GitHub Logo](/images/logo.png)
-  Format: ![Alt Text](url)
+# Installation\n 
+${response.installation}\n
+
+# Usage\n
+${response.usage}\n
+
+# License\n
+${response.license}\n
+
+# Contributors\n
+${response.contributors}\n
+
+# Test\n
+${response.test}\n
+
+# Questions\n
+${response.questions}\n
+
+# Contact\n
+To reach out for more support, contact ${username} on GitHub or, you may email them at ${email}. 
+
+  ![](https://img.shields.io/badge/build-readme-green)
+  ![](../Assets/GitHub_Logo_White)
 `;
 }
 
