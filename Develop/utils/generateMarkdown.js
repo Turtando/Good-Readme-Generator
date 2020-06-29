@@ -15,7 +15,6 @@ ${response.description}\n
 * [Questions](#questions)
 * [Contact](#contact)
 
-
 # Installation\n 
 ${response.installation}\n
 
@@ -24,6 +23,7 @@ ${response.usage}\n
 
 # License\n
 ${response.license}\n
+![](https://img.shields.io/badge/build-readme-green)\n
 
 # Contributors\n
 ${response.contributors}\n
@@ -34,11 +34,9 @@ ${response.test}\n
 # Questions\n
 ${response.questions}\n
 
-# Contact\n
-To reach out for more support, contact ${username} on GitHub or, you may email them at ${email}. 
+## Contact
+*To contact the developer, you may reach them at https://github.com/${response.username} on GitHub or, you email directly at ${response.email}.*
 
-  ![](https://img.shields.io/badge/build-readme-green)
-  ![](../Assets/GitHub_Logo_White)
 `;
 }
 

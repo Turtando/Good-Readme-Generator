@@ -1,10 +1,10 @@
 
 
-# Turtando's Project
+# Turtando's Readme
 
 
 # Description 
-It will run a script.
+This project will generate a readme file for the user.
 
 
 # Table of Contents 
@@ -14,40 +14,39 @@ It will run a script.
 * [Contributors](#contributors)
 * [Test](#test)
 * [Questions](#questions)
-
+* [Contact](#contact)
 
 # Installation
  
-You need node.js
+You will need node.js to run this.
 
 
 # Usage
 
-Through bash
+node index1.js 
 
 
 # License
 
 MIT
+![](https://img.shields.io/badge/build-readme-green)
 
 
 # Contributors
 
-Myself.
+Chris Turton
 
 
 # Test
 
-node index.js1
+run node index1.js in bash or terminal.
 
 
-# Asked Questions
+# Questions
 
-No.
+Not at the moment.
 
 
+## Contact
+*To contact the developer, you may reach them at https://github.com/Turtando on GitHub or, you email directly at turtando@example.com.*
 
-  ![](https://img.shields.io/packagist/l/turtando/good-readme-generator)
-  
-  ![GitHub Logo](/images/logo.png)
-  Format: ![Alt Text](url)
