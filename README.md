@@ -24,7 +24,7 @@ node.js is needed.
 # Usage
 
 running node.js CLI
-
+[![Readme Generator](http://img.youtube.com/vi/ASpNMcnwMUE/0.jpg)](http://www.youtube.com/watch?v=ASpNMcnwMUE "Good-Readme-Generator")
 
 # License
 
